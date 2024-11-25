@@ -1,0 +1,15 @@
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\bin\Debug\net8.0\Squadra-API.exe
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\bin\Debug\net8.0\Squadra-API.deps.json
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\bin\Debug\net8.0\Squadra-API.runtimeconfig.json
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\bin\Debug\net8.0\Squadra-API.dll
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\bin\Debug\net8.0\Squadra-API.pdb
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\Squadra-API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\Squadra-API.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\Squadra-API.AssemblyInfo.cs
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\Squadra-API.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\Squadra-API.sourcelink.json
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\Squadra-API.dll
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\refint\Squadra-API.dll
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\Squadra-API.pdb
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\Squadra-API.genruntimeconfig.cache
+C:\Users\Rodrigo\Documents\Squadra-API\Squadra-API\Squadra-API\Squadra-API\obj\Debug\net8.0\ref\Squadra-API.dll
