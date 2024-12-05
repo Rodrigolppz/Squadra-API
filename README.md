@@ -7,3 +7,9 @@ Abaixo irei detalhar o passo a passo da criação dessa API.
 
 #
 
+
+# 1 - Criar o projeto no Visual Studio.
+
+Nesse primeiro passo é importante criar o projeto da maneira certa, para isso basta ir até o Visual studio que foi instalado `Visual studio -> Create a new project -> ASP.NET Core Web API -> Create`
+
+Com essa instalação o Visual Studio já deixa o nosso ambiente preparado e facilita bastante o trabalho na hora de desenvolvermos a nossa API.
