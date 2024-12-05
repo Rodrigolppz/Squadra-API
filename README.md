@@ -97,6 +97,7 @@ Para criar e integrar o banco de dados no projeto, basta acessar o menu do Visua
 
 Ao fazer isso, o Visual Studio automaticamente cria e integra o banco de dados completo ao projeto, facilitando o processo de desenvolvimento.
 
+Com o banco de dados criado, precisamos adicionar uma classe chamada <b>AppDbContext.cs</b> dentro do /Models, para gerenciar as interações com o banco de dados.
 
 
 
