@@ -19,7 +19,7 @@ Com essa instalação o Visual Studio já deixa o nosso ambiente preparado e fac
 ### 2 - Instalação dos pacotes adicionais do Visual Studio
 .
 
-.
+. Microsoft.EntityFrameworkCore -> Interagir com o banco de dados
 
 .
 
