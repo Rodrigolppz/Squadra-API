@@ -99,6 +99,7 @@ Ao fazer isso, o Visual Studio automaticamente cria e integra o banco de dados c
 
 Com o banco de dados criado, precisamos adicionar uma classe chamada <b>AppDbContext.cs</b> dentro do /Models, para gerenciar as interações com o banco de dados.
 
+Configurar a conexão no `Program.cs` e a string de conexão no `appsettings.json`
 
 
 
