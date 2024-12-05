@@ -91,8 +91,11 @@ O funcionamento é simples: o cliente realiza uma requisição do tipo POST, a A
 
 Para criar e integrar o banco de dados no projeto, basta acessar o menu do Visual Studio em `Tools -> Connect to Database.` Nessa janela, selecione a opção para criar um banco de dados SQL como arquivo diretamente no C#.
 
-Ao fazer isso, o Visual Studio automaticamente cria e integra o banco de dados completo ao projeto, facilitando o processo de desenvolvimento.
 
+![banco](https://github.com/Rodrigolppz/Squadra-API/blob/main/images/Database.jpg)
+
+
+Ao fazer isso, o Visual Studio automaticamente cria e integra o banco de dados completo ao projeto, facilitando o processo de desenvolvimento.
 
 
 
