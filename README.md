@@ -101,6 +101,18 @@ Com o banco de dados criado, precisamos adicionar uma classe chamada <b>AppDbCon
 
 Configurar a conexão no `Program.cs` e a string de conexão no `appsettings.json`
 
+Baixar as dependências para interagir com o banco de dados:
+
+- Microsoft.EntityFrameworkCore
+  
+- Microsoft.EntityFrameworkCore.Tools
+  
+- Microsoft.EntityFrameworkCore.Design
+  
+- Microsoft.EntityFrameworkCore.SqlServer
+
+
+
 
 
 
