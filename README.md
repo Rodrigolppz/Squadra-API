@@ -48,7 +48,7 @@ Explicação:
 
 <b>Services</b>: São responsáveis por armazenar todas as regras de negócio. É onde agrupamos todos os métodos que serão chamados pelos controllers.
 
-### 4 - Let's Code 
+### 4 - Criação das classes
 
 Nessa etapa é onde começamos a desenvolver os códigos da nossa aplicação. Para isso, precisamos criar algumas classes, segue abaixo a estrutura:
 
@@ -69,13 +69,24 @@ Nessa etapa é onde começamos a desenvolver os códigos da nossa aplicação. P
 - UserService.cs
 
 
-------------------------
-
-Program.cs
-
 Seguindo a explicação que foi feita acima, nós definimos o começo da estrutura do nosso projeto.
 
-Detalhe: O program.cs já é criado automaticamente quando iniciamos o projeto, ele é o arquivo central, onde os principais códigos e configurações do aplicativo são executados. 
+### 5 - Let's Code
+
+Agora com a estrutura do nosso projeto feita, vamos começar a por a mão na massa.
+
+Por se tratar de diversos códigos, achei melhor deixar essa parte para ser analisada direto no projeto real
+
+Clique aqui para ser redirecionado para os códigos da aplicação -> [Códigos API](...)
+
+### 6 - JWT Token
+
+Após codar a estrutura da API, precisamos aplicar as boas práticas e garantir que ela seja segura, Para isso, utilizamos o JWT Token (JSON Web Token) que nada mais é do que uma autenticação de segurança.
+
+Funciona dessa forma: O cliente faz uma requisição do tipo post, a API gera um token e devolve como resposta para o cliente. A partir disso o cliente tem porta aberta para fazer as demais requisições.
+
+
+
 
 
 
