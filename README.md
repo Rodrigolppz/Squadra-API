@@ -83,7 +83,11 @@ Clique aqui para ser redirecionado para os códigos da aplicação -> [Códigos 
 
 Após codar a estrutura da API, precisamos aplicar as boas práticas e garantir que ela seja segura, Para isso, utilizamos o JWT Token (JSON Web Token) que nada mais é do que uma autenticação de segurança.
 
+![Fluxo API](https://github.com/Rodrigolppz/Squadra-API/blob/main/images/JWT%20Token.jpg)
+
 Funciona dessa forma: O cliente faz uma requisição do tipo post, a API gera um token e devolve como resposta para o cliente. A partir disso o cliente tem porta aberta para fazer as demais requisições.
+
+
 
 
 
