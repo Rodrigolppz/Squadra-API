@@ -47,3 +47,35 @@ Explicação:
 <b>Models</b>: Models são os responsáveis por representar as entidades da API. Aqui é onde definimos as estruturas que representam os dados utilizados na aplicação.
 
 <b>Services</b>: São responsáveis por armazenar todas as regras de negócio. É onde agrupamos todos os métodos que serão chamados pelos controllers.
+
+### 4 - Let's Code 
+
+Nessa etapa é onde começamos a desenvolver os códigos da nossa aplicação. Para isso, precisamos criar algumas classes, segue abaixo a estrutura:
+
+/Controllers
+
+- ProdutoController.cs
+
+/Models
+
+- Produto.cs
+
+- User.cs
+
+/Services
+
+- ProdutoService.cs
+  
+- UserService.cs
+
+
+------------------------
+
+Program.cs
+
+Seguindo a explicação que foi feita acima, nós definimos o começo da estrutura do nosso projeto.
+
+Detalhe: O program.cs já é criado automaticamente quando iniciamos o projeto, ele é o arquivo central, onde os principais códigos e configurações do aplicativo são executados. 
+
+
+
