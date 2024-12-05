@@ -87,7 +87,11 @@ Após desenvolver a estrutura da API, é essencial aplicar boas práticas e gara
 
 O funcionamento é simples: o cliente realiza uma requisição do tipo POST, a API valida as informações, gera um token e o envia como resposta ao cliente. Com esse token, o cliente passa a ter autorização para realizar as demais requisições de forma segura.
 
-### 7 - Integração banco de dados 
+### 7 - Criação do banco de dados
+
+Para criar e integrar o banco de dados no projeto, basta acessar o menu do Visual Studio em `Tools -> Connect to Database.` Nessa janela, selecione a opção para criar um banco de dados SQL como arquivo diretamente no C#.
+
+Ao fazer isso, o Visual Studio automaticamente cria e integra o banco de dados completo ao projeto, facilitando o processo de desenvolvimento.
 
 
 
