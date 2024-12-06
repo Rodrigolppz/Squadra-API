@@ -1,0 +1,30 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+*.tlog
+*.cache
+
+# Temporary files
+*.tmp
+*.vs/
+
+# Database
+*.mdf
+*.ldf
+
+# Visual Studio Code settings
+.vscode/
+
+# Ignorar arquivos do Visual Studio
+.vs/
+
+
