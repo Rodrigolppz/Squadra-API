@@ -126,8 +126,7 @@ Para testar se a conexão com o banco de dados estava funcionando corretamente, 
 
 ![Teste](https://github.com/Rodrigolppz/Squadra-API/blob/main/images/Test_Database.jpg)
 
-
-
+![Swagger](https://github.com/Rodrigolppz/Squadra-API/blob/main/images/Swagger_Databse_Teste.jpg)
 
 
 
