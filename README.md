@@ -131,7 +131,7 @@ Para testar se a conexão com o banco de dados estava funcionando corretamente, 
 Agora com o banco de dados pronto e funcionando, podemos seguir fazendo a criação das tabelas necessárias de acordo com o desafio proposto.
 
 
-
+# 8 
 
 
 
