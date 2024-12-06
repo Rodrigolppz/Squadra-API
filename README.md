@@ -8,7 +8,7 @@ Abaixo irei detalhar o passo a passo da criação dessa API.
 #
 
 
-### 1 - Criar o projeto no Visual Studio.
+# 1 - Criar o projeto no Visual Studio.
 
 Nesse primeiro passo é importante criar o projeto da maneira certa, para isso basta ir até o Visual studio que foi instalado `Visual studio -> Create a new project -> ASP.NET Core Web API -> Create`
 
@@ -16,7 +16,7 @@ Nesse primeiro passo é importante criar o projeto da maneira certa, para isso b
 
 Com essa instalação o Visual Studio já deixa o nosso ambiente preparado e facilita bastante o trabalho na hora de desenvolvermos a nossa API.
 
-### 2 - Instalação dos pacotes adicionais do Visual Studio
+# 2 - Instalação dos pacotes adicionais do Visual Studio
 .
 
 . Microsoft.EntityFrameworkCore -> Interagir com o banco de dados
@@ -27,7 +27,7 @@ Com essa instalação o Visual Studio já deixa o nosso ambiente preparado e fac
 
 
 
-### 3 - Organizar os diretórios dentro do projeto
+# 3 - Organizar os diretórios dentro do projeto
 
 Esta é a etapa inicial do projeto, é aqui que damos o primeiro passo em direção à construção da nossa API.
 
@@ -48,7 +48,7 @@ Explicação:
 
 <b>Services</b>: São responsáveis por armazenar todas as regras de negócio. É onde agrupamos todos os métodos que serão chamados pelos controllers.
 
-### 4 - Criação das classes
+# 4 - Criação das classes
 
 Nessa etapa é onde começamos a desenvolver os códigos da nossa aplicação. Para isso, precisamos criar algumas classes, segue abaixo a estrutura:
 
@@ -71,7 +71,7 @@ Nessa etapa é onde começamos a desenvolver os códigos da nossa aplicação. P
 
 Seguindo a explicação que foi feita acima, nós definimos o começo da estrutura do nosso projeto.
 
-### 5 - Let's Code
+# 5 - Let's Code
 
 Agora com a estrutura do nosso projeto feita, vamos começar a por a mão na massa.
 
@@ -79,7 +79,7 @@ Por se tratar de diversos códigos, achei melhor deixar essa parte para ser anal
 
 Clique aqui para ser redirecionado para os códigos da aplicação -> [Códigos API](...)
 
-### 6 - JWT Token
+# 6 - JWT Token
 
 Após desenvolver a estrutura da API, é essencial aplicar boas práticas e garantir a segurança. Para isso, utilizamos o JWT (JSON Web Token), que é uma ferramenta de autenticação segura.
 
@@ -87,8 +87,9 @@ Após desenvolver a estrutura da API, é essencial aplicar boas práticas e gara
 
 O funcionamento é simples: o cliente realiza uma requisição do tipo POST, a API valida as informações, gera um token e o envia como resposta ao cliente. Com esse token, o cliente passa a ter autorização para realizar as demais requisições de forma segura.
 
-### 7 - Criação do banco de dados
+# 7 - Criação do banco de dados
 
+### 7.1
 Para criar e integrar o banco de dados no projeto, basta acessar o menu do Visual Studio em `Tools -> Connect to Database.` Nessa janela, selecione a opção para criar um banco de dados SQL como arquivo diretamente no C#.
 
 
@@ -96,6 +97,8 @@ Para criar e integrar o banco de dados no projeto, basta acessar o menu do Visua
 
 
 Ao fazer isso, o Visual Studio automaticamente cria e integra o banco de dados completo ao projeto, facilitando o processo de desenvolvimento.
+
+### 7.2
 
 Com o banco de dados criado, precisamos adicionar uma classe chamada <b>AppDbContext.cs</b> dentro do /Models, para gerenciar as interações com o banco de dados.
 
@@ -110,6 +113,18 @@ Baixar as dependências para interagir com o banco de dados:
 - Microsoft.EntityFrameworkCore.Design
   
 - Microsoft.EntityFrameworkCore.SqlServer
+
+### 7.3 
+
+Para testar se a conexão com o banco de dados estava funcionando corretamente, fiz os seguintes passos:
+
+1- Criei uma classe chamada `User.cs` dentro do meu <b>/Models</b>
+
+2- Criei uma table no banco de dados com os valores: `UserName, Password e Role`
+
+3- Adicionei a linha de código que faz o teste da conexão:
+
+
 
 
 
