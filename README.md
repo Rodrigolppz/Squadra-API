@@ -93,7 +93,7 @@ Agora com a estrutura do nosso projeto feita, vamos começar a por a mão na mas
 
 Por se tratar de diversos códigos, achei melhor deixar essa parte para ser analisada direto no projeto real
 
-Clique aqui para ser redirecionado para os códigos da aplicação -> [Códigos API](...)
+Clique aqui para ser redirecionado para os códigos da aplicação -> [Códigos API](https://github.com/Rodrigolppz/Squadra-API/tree/main/Teste%20API)
 
 <div id='6'/>
 
