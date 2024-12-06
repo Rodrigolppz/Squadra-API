@@ -128,6 +128,7 @@ Para testar se a conexão com o banco de dados estava funcionando corretamente, 
 
 ![Swagger](https://github.com/Rodrigolppz/Squadra-API/blob/main/images/Swagger_Databse_Teste.jpg)
 
+Agora com o banco de dados pronto e funcionando, podemos seguir fazendo a criação das tabelas necessárias de acordo com o desafio proposto.
 
 
 
