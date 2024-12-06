@@ -124,6 +124,8 @@ Para testar se a conexão com o banco de dados estava funcionando corretamente, 
 
 3- Adicionei a linha de código que faz o teste da conexão:
 
+![Teste](https://github.com/Rodrigolppz/Squadra-API/blob/main/images/Test_Database.jpg)
+
 
 
 
