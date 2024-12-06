@@ -14,21 +14,28 @@ namespace Teste_API.Controllers
     [ApiController]
     public class AutController : ControllerBase
     {
-        [HttpPost]
-
+        // Endpoint para login e geração do token
+        [HttpPost("login")]
         public IActionResult Login([FromBody] UserLogin login)
         {
-            if (login.UserName.Equals("Administrador") && login.Password.Equals("123456")) 
+            // Simulando uma verificação de usuário e senha
+            if (login.UserName == "admin" && login.Password == "123456")
             {
-                var token = GerarTokenJWT();
-
-                return Ok(new {Token = token});
+                var token = GerarTokenJWT("Gerente");  // Passando a role de Gerente para o Admin
+                return Ok(new { Token = token });
             }
-
-            return Unauthorized(new {Mensagem = "Credenciais invalidas", Codigo = 001});
-
+            else if (login.UserName == "funcionario" && login.Password == "123456")
+            {
+                var token = GerarTokenJWT("Funcionario");  // Passando a role de Funcionario
+                return Ok(new { Token = token });
+            }
+            else
+            {
+                return Unauthorized("Credenciais inválidas");
+            }
         }
 
+        // Endpoint protegido, requer autorização
         [HttpGet("RotaProtegida")]
         [Authorize]
         public IActionResult RotaProtegida()
@@ -36,31 +43,28 @@ namespace Teste_API.Controllers
             return Ok("Acessando uma rota protegida");
         }
 
-
-        private string GerarTokenJWT()
+        // Método para gerar o token JWT
+        private string GerarTokenJWT(string role)
         {
-            var claims = new[] 
-            { 
-                new Claim(ClaimTypes.Name,"Administrador"), //nomeusuario
-                new Claim(ClaimTypes.Role,"Admin") //papelusuario
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.Name, "Usuário"),  // Pode ser alterado para o nome do usuário
+                new Claim(ClaimTypes.Role, role)  // Usando o parâmetro role para definir o papel do usuário
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ChaveSecretaSegura1234567890AbCdEfGhIjKlMnOpQrSt"));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken
-                (
+            (
                 issuer: "api-autentication",
                 audience: "api-cadastro",
                 claims: claims,
                 expires: DateTime.Now.AddHours(1),
                 signingCredentials: creds
-
-                );
+            );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
-
         }
-
     }
 }

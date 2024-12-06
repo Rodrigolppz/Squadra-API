@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Teste_API.Models;
 using Teste_API.Services;
 
@@ -58,6 +59,7 @@ namespace Teste_API.Controllers
 
         // Atualizar o estoque de um produto
         [HttpPut("{id}")]
+        [Authorize(Roles = "Gerente,Funcionario")]  // Apenas Gerente ou Funcionário
         public ActionResult AtualizarEstoque(int id, [FromBody] int quantidade)
         {
             _produtoService.AtualizarEstoque(id, quantidade);
@@ -66,6 +68,7 @@ namespace Teste_API.Controllers
 
         // Excluir um produto
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Gerente")]  // Apenas Gerente
         public ActionResult ExcluirProduto(int id)
         {
             _produtoService.ExcluirProduto(id);

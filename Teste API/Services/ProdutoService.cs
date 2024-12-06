@@ -15,6 +15,8 @@ namespace Teste_API.Services
         {
             _context.Produtos.Add(produto); // Adiciona o produto ao banco de dados
             _context.SaveChanges(); // Salva as alterações no banco
+
+            Console.WriteLine($"Produto inserido: {produto.Nome} com ID {produto.Id}");
         }
 
         public List<Produto> ObterTodosProdutos()
