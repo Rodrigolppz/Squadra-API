@@ -169,7 +169,7 @@ Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoqu
 
 <div id='9'/>
 
-# 9 Rotas & Endpoints
+# 9 Rotas, Endpoints & Json de exemplo
 
 As rotas do projeto estão separadas entre duas categorias: Aut e Produto.
 
@@ -183,21 +183,75 @@ Explicação:
 
 Aqui é onde o usuário vai fazer um POST com seu UserName e Senha, se o username e senha estiverem de acordo com as credenciais de administrador ( admin / 123456 ), a resposta para essa requisição será um token de autenticação para a role <b>Gerente</b>, se o username = funcionario e senha = 123456, será gerado um token para a role funcionário. Caso não seja nenhum dos dois, será retornado a mensagem de "Credenciais inválidas"
 
+```	
+Response body - Json de exemplo
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVXN1w6FyaW8iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJHZXJlbnRlIiwiZXhwIjoxNzMzNjgxMjg4LCJpc3MiOiJhcGktYXV0ZW50aWNhdGlvbiIsImF1ZCI6ImFwaS1jYWRhc3RybyJ9.Caw4iPu15orogKq8fr3XfgFE5NSLtyuzB1ci5hgMZTk"
+}
+```
+
+
+
 2 - GET /api/Produto
 
 Nesse método GET /api/Produto o usuário vai receber como resposta todos os produtos que existem no programa, independentemente se este produto está com status "em-estoque" ou não.
+
+```
+[
+  {
+    "id": 1,
+    "nome": "ar-condicionado",
+    "descricao": "o melhor do mercado",
+    "status": "em-estoque",
+    "preco": 1200,
+    "quantidadeEstoque": 12
+  },
+  {
+    "id": 2,
+    "nome": "Televisão",
+    "descricao": "70 polegadas",
+    "status": "em-estoque",
+    "preco": 1500,
+    "quantidadeEstoque": 3
+  },
+  {
+    "id": 3,
+    "nome": "Sofá",
+    "descricao": "Sofá de couro",
+    "status": "esgotado",
+    "preco": 2675,
+    "quantidadeEstoque": 0
+  }
+]
+```
 
 3 - POST /api/Produto
 
 O usuário vai adicionar um novo produto ao estoque, esse produto precisa ter um ID diferente dos outros produtos que já existem no estoque, qualquer usuário pode realizar esse post.
 
+```
+{
+  "id": 0,
+  "nome": "string",
+  "descricao": "string",
+  "status": "string",
+  "preco": 0,
+  "quantidadeEstoque": 0
+}
+```
+
 4 - GET /api/Produto/em-estoque
 
 Aqui serão listados somente os produtos que possuem o atual status = "em-estoque", do contrário o produto não irá aparecer nessa parte.
 
+
+
 5 - PUT /api/Produto/{id}
 
 Nessa rota o usuário vai alterar a quantidade em estoque de um determinado produto, somente as roles <b>Gerente</b> e <b>Funcionário</b> tem permissão para fazer essa alteração
+
+
 
 6 - DELETE /api/Produto/{id}
 
