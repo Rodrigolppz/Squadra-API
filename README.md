@@ -65,7 +65,7 @@ Explicação:
 
 <div id='4'/>
   
-# 4 - Criação das classes
+# 4 - Criação das primeiras classes
 
 Nessa etapa é onde começamos a desenvolver os códigos da nossa aplicação. Para isso, precisamos criar algumas classes, segue abaixo a estrutura:
 
