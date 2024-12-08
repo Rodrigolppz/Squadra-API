@@ -289,33 +289,29 @@ Aqui o usuário poderá deletar qualquer produto da tabela apenas especificando 
 
 ### 1 Git clone
 
-- Execute: `git clone https://github.com/Rodrigolppz/Squadra-API.git`
+Crie uma arquivo e dentro dele execute no git bash: `git clone https://github.com/Rodrigolppz/Squadra-API.git`
 
 ### 2 Abrir o projeto no Visual Studio
 
-- Abra o arquivo de solução `(Teste API.sln)` usando o Visual Studio.
+- Abra o arquivo `(Teste API.sln)` 
 
-### 3 Restaurar pacotes NuGet
+### 3 Configurar o banco de dados
 
-- No Visual Studio, clique em Ferramentas > Gerenciador de Pacotes NuGet > Gerenciar Pacotes para a Solução.
+Clique em `Tools -> Connect to Database -> Microsoft SQL Server Database File(SqlClient)` Clique em Browse e selecione o DatabaseSQL.mdf que está na pasta Database
 
-- Certifique-se de restaurar todos os pacotes necessários para o funcionamento do projeto.
+Vá até o canto superior esquerdo em DatabaseSQL.mdf -> botão direito -> Properties -> Connection string e copie tudo o que vem depois do connection string.
 
-### 4 Configurar o banco de dados
+Depois vá até  `appsettings.json` e cole o connection string após o  "DefaultConnection" 
 
-- Verifique se o arquivo do banco de dados está corretamente localizado no diretório especificado no appsettings.json.
-
-- Se necessário, ajuste a string de conexão para refletir o ambiente local.
-
-### 5 Compilar e rodar o projeto
+### 4 Compilar e rodar o projeto
 
 - No Visual Studio, selecione o projeto Teste API como Startup Project.
 
 - Clique em Executar ou (CTRL + F5)
 
-### 6 Testar a API usando o Postman ou Swagger
+### 5 Testar a API usando o Postman ou Swagger
 
-Ao iniciar o projeto, basta testar a API
+- Ao iniciar o projeto, basta testar a API
 
 
 
