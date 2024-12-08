@@ -6,7 +6,10 @@ using System.Text;
 using Teste_API.Models;
 using Teste_API.Services;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<AuthService>();  // Adicione esta linha para registrar o AuthService
 
 // Configurar o DbContext com a string de conexão do appsettings.json
 builder.Services.AddDbContext<AppDbContext>(options =>
