@@ -17,6 +17,10 @@ Abaixo, serão detalhados os passos para a criação dessa API, seguidos do guia
 ------------------------------------------
 10. [Passo a passo de como executar a API](#10)
 
+- Os códigos podem ser acessados em -> [Teste API](https://github.com/Rodrigolppz/Squadra-API/tree/main/Teste%20API)
+
+- Obs: O nome ficou como Teste API pois quando eu criei o projeto eu não esperava que fosse trabalhar diretamente nele, porém fui segiundo as aulas e quando me dei conta eu já estava fazendo o projeto ali mesmo...
+
 #
 
 <div id='1'/>
