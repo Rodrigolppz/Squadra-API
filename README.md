@@ -245,12 +245,31 @@ O usuário vai adicionar um novo produto ao estoque, esse produto precisa ter um
 
 Aqui serão listados somente os produtos que possuem o atual status = "em-estoque", do contrário o produto não irá aparecer nessa parte.
 
+```
+[
+  {
+    "id": 1,
+    "nome": "ar-condicionado",
+    "descricao": "o melhor do mercado",
+    "status": "em-estoque",
+    "preco": 1200,
+    "quantidadeEstoque": 12
+  },
+  {
+    "id": 2,
+    "nome": "Televisão",
+    "descricao": "70 polegadas",
+    "status": "em-estoque",
+    "preco": 1500,
+    "quantidadeEstoque": 15
+  }
+]
+```
 
 
 5 - PUT /api/Produto/{id}
 
 Nessa rota o usuário vai alterar a quantidade em estoque de um determinado produto, somente as roles <b>Gerente</b> e <b>Funcionário</b> tem permissão para fazer essa alteração
-
 
 
 6 - DELETE /api/Produto/{id}
