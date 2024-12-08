@@ -183,6 +183,25 @@ Explicação:
 
 Aqui é onde o usuário vai fazer um POST com seu UserName e Senha, se o username e senha estiverem de acordo com as credenciais de administrador ( admin / 123456 ), a resposta para essa requisição será um token de autenticação para a role <b>Gerente</b>, se o username = funcionario e senha = 123456, será gerado um token para a role funcionário. Caso não seja nenhum dos dois, será retornado a mensagem de "Credenciais inválidas"
 
+2 - GET /api/Produto
+
+Nesse método GET /api/Produto o usuário vai receber como resposta todos os produtos que existem no programa, independentemente se este produto está com status "em-estoque" ou não.
+
+3 - POST /api/Produto
+
+O usuário vai adicionar um novo produto ao estoque, esse produto precisa ter um ID diferente dos outros produtos que já existem no estoque, qualquer usuário pode realizar esse post.
+
+4 - GET /api/Produto/em-estoque
+
+Aqui serão listados somente os produtos que possuem o atual status = "em-estoque", do contrário o produto não irá aparecer nessa parte.
+
+5 - PUT /api/Produto/{id}
+
+Nessa rota o usuário vai alterar a quantidade em estoque de um determinado produto, somente as roles <b>Gerente</b> e <b>Funcionário</b> tem permissão para fazer essa alteração
+
+6 - DELETE /api/Produto/{id}
+
+
 
 
 --------------------------------------------------------------------------------------------------------
