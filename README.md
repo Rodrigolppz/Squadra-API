@@ -33,15 +33,7 @@ Com essa instalação o Visual Studio já deixa o nosso ambiente preparado e fac
 
 # 2 - Instalação dos pacotes adicionais do Visual Studio
 
-.Microsoft.AspNetCore.Authentication.Jwt
-
-.Microsoft.EntityFrameworkCore
-
-.Microsoft.EntityFrameworkCore.Desi
-
-.Microsoft.EntityFrameworkCore.SqlServ
-
-.
+![Pacotes](https://github.com/Rodrigolppz/Squadra-API/blob/main/images/Pacotes.jpg)
 
 <div id='3'/>
 
