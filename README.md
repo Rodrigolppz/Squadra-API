@@ -13,7 +13,7 @@ Abaixo, serão detalhados os passos para a criação dessa API, seguidos do guia
 6. [JWT Token](#6)
 7. [Banco de Dados](#7)
 8. [Regras de Negócio](#8)
-9. [EndPoints](#9)
+9. [API & JSON DE EXEMPLO](#9)
 
 #
 
