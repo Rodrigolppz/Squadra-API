@@ -196,5 +196,9 @@ Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoqu
 
 - Clique em Executar ou (CTRL + F5)
 
+### 6 Testar a API usando o Postman ou Swagger
+
+Ao iniciar o projeto, basta testar a API
+
 
 
