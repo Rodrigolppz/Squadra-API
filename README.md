@@ -201,7 +201,7 @@ Nessa rota o usuário vai alterar a quantidade em estoque de um determinado prod
 
 6 - DELETE /api/Produto/{id}
 
-
+Aqui o usuário poderá deletar qualquer produto da tabela apenas especificando o ID, somente a role <b>Gerente</b> tem essa permissão.
 
 
 --------------------------------------------------------------------------------------------------------
