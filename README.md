@@ -167,6 +167,8 @@ Somente o <b>Gerente</b> pode <b>Excluir</b> um produto
 
 Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoque de um produto
 
+[Código](https://github.com/Rodrigolppz/Squadra-API/blob/main/Teste%20API/Controllers/ProdutoController.cs)
+
 <div id='9'/>
 
 # 9 Rotas, Endpoints & Json de exemplo
