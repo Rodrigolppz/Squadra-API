@@ -306,7 +306,7 @@ Depois vá até  `appsettings.json` e cole o connection string após o  "Default
 
 ### 5 Testar a API usando o Postman ou Swagger
 
-- Ao iniciar o projeto, basta testar a API
+- Ao iniciar o projeto, basta testar a API fazendo um POST,GET,UPDATE e DELETE!
 
 
 
