@@ -173,7 +173,7 @@ Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoqu
 
 <div id='9'/>
 
-# 9 Rotas, Endpoints & Json de exemplo
+# 9 API & JSON DE EXEMPLO
 
 As rotas do projeto estão separadas entre duas categorias: Aut e Produto.
 
