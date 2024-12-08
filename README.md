@@ -166,3 +166,7 @@ Somente o <b>Gerente</b> pode <b>Excluir</b> um produto
 
 Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoque de um produto
 
+--------------------------------------------------------------------------------------------------------
+
+# Passo a passo explicando como executar a API
+
