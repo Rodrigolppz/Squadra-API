@@ -168,5 +168,9 @@ Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoqu
 
 --------------------------------------------------------------------------------------------------------
 
-# Como executar a API: 
+# Como executar a API
+
+# 1 Git clone
+
+
 
