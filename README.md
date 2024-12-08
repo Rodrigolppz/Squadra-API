@@ -177,6 +177,12 @@ Segue abaixo a lista das rotas configuradas para a conclusão do desafio:
 
 ![.](https://github.com/Rodrigolppz/Squadra-API/blob/main/images/Projeto%20API.jpg)
 
+Explicação: 
+
+1 - POST /api/Aut/login
+
+Aqui é onde o usuário vai fazer um POST com seu UserName e Senha, se o username e senha estiverem de acordo com as credenciais de administrador ( admin / 123456 ), a resposta para essa requisição será um token de autenticação para a role <b>Gerente</b>, se o username = funcionario e senha = 123456, será gerado um token para a role funcionário. Caso não seja nenhum dos dois, será retornado a mensagem de "Credenciais inválidas"
+
 
 
 --------------------------------------------------------------------------------------------------------
