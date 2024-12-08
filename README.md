@@ -13,6 +13,7 @@ Abaixo, serão detalhados os passos para a criação dessa API, seguidos do guia
 6. [JWT Token](#6)
 7. [Banco de Dados](#7)
 8. [Regras de Negócio](#8)
+9. [EndPoints](#9)
 
 #
 
@@ -165,6 +166,10 @@ Qualquer pessoa pode <b>Consultar os produtos em estoque</b>
 Somente o <b>Gerente</b> pode <b>Excluir</b> um produto
 
 Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoque de um produto
+
+<div id='9'/>
+
+# 9 
 
 --------------------------------------------------------------------------------------------------------
 
