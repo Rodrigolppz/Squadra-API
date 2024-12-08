@@ -32,11 +32,14 @@ Com essa instalação o Visual Studio já deixa o nosso ambiente preparado e fac
 <div id='2'/>
 
 # 2 - Instalação dos pacotes adicionais do Visual Studio
-.
 
-. Microsoft.EntityFrameworkCore -> Interagir com o banco de dados
+.Microsoft.AspNetCore.Authentication.Jwt
 
-.
+.Microsoft.EntityFrameworkCore
+
+.Microsoft.EntityFrameworkCore.Desi
+
+.Microsoft.EntityFrameworkCore.SqlServ
 
 .
 
