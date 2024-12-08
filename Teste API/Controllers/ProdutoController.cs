@@ -41,6 +41,12 @@ namespace Teste_API.Controllers
         [HttpPost]
         public ActionResult AdicionarProduto([FromBody] Produto produto)
         {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // Retorna os erros de validação automaticamente.
+            }
+
             _produtoService.AdicionarProduto(produto);
             return CreatedAtAction(nameof(ObterTodosProdutos), new { id = produto.Id }, produto);
         }

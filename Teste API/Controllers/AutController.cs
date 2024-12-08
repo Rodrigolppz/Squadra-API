@@ -35,7 +35,7 @@ namespace Teste_API.Controllers
             }
         }
 
-     
+
         // Método para gerar o token JWT
         private string GerarTokenJWT(string role)
         {
