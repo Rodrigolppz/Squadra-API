@@ -170,7 +170,31 @@ Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoqu
 
 # Como executar a API
 
-# 1 Git clone
+### 1 Git clone
+
+- Execute: `git clone https://github.com/Rodrigolppz/Squadra-API.git`
+
+### 2 Abrir o projeto no Visual Studio
+
+- Abra o arquivo de solução `(Teste API.sln)` usando o Visual Studio.
+
+### 3 Restaurar pacotes NuGet
+
+- No Visual Studio, clique em Ferramentas > Gerenciador de Pacotes NuGet > Gerenciar Pacotes para a Solução.
+
+- Certifique-se de restaurar todos os pacotes necessários para o funcionamento do projeto.
+
+### 4 Configurar o banco de dados
+
+- Verifique se o arquivo do banco de dados está corretamente localizado no diretório especificado no appsettings.json.
+
+- Se necessário, ajuste a string de conexão para refletir o ambiente local.
+
+### 5 Compilar e rodar o projeto
+
+- No Visual Studio, selecione o projeto Teste API como Startup Project.
+
+- Clique em Executar ou (CTRL + F5)
 
 
 
