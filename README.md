@@ -175,7 +175,11 @@ As rotas do projeto estão separadas entre duas categorias: Aut e Produto.
 
 Segue abaixo a lista das rotas configuradas para a conclusão do desafio:
 
-### 9.1 
+### 9.1 Aut
+
+POST /api/Aut/login
+
+### 9.2 Produto
 
 
 
