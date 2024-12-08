@@ -28,10 +28,13 @@ namespace Teste_API.Controllers
 
         // Consultar produtos em estoque
         [HttpGet("em-estoque")]
-        public ActionResult<IEnumerable<Produto>> ObterProdutosEmEstoque()
+        public IActionResult GetProdutosEmEstoque()
         {
-            var produtos = _produtoService.ObterProdutosEmEstoque();
-            return Ok(produtos);
+            var produtosEmEstoque = _context.Produtos
+                .Where(p => p.Status == "em-estoque")
+                .ToList();
+
+            return Ok(produtosEmEstoque);
         }
 
         // Adicionar um novo produto

@@ -17,9 +17,6 @@ obj/
 *.tmp
 *.vs/
 
-# Database
-*.mdf
-*.ldf
 
 # Visual Studio Code settings
 .vscode/
