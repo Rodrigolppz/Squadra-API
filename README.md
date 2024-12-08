@@ -169,7 +169,7 @@ Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoqu
 
 <div id='9'/>
 
-# 9 
+# 9 Endpoints e Json de exemplo
 
 --------------------------------------------------------------------------------------------------------
 
