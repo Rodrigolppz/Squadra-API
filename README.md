@@ -14,6 +14,8 @@ Abaixo, serão detalhados os passos para a criação dessa API, seguidos do guia
 7. [Banco de Dados](#7)
 8. [Regras de Negócio](#8)
 9. [API & JSON DE EXEMPLO](#9)
+------------------------------------------
+[Passo a passo de como executar a API](#10)
 
 #
 
@@ -280,6 +282,8 @@ Aqui o usuário poderá deletar qualquer produto da tabela apenas especificando 
 
 
 --------------------------------------------------------------------------------------------------------
+
+<div id='10'/>
 
 # Como executar a API
 
