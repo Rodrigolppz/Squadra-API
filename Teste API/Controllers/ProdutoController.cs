@@ -18,21 +18,6 @@ namespace Teste_API.Controllers
             _context = context;
         }
 
-        // Testar conexão com o banco de dados
-        [HttpGet("TestDatabase")]
-        public IActionResult TestDatabase()
-        {
-            try
-            {
-                var users = _context.Users.ToList();
-                return Ok(new { Message = "Conexão com o banco de dados funcionando!", Users = users });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { Message = "Erro ao acessar o banco de dados.", Error = ex.Message });
-            }
-        }
-
         // Consultar todos os produtos
         [HttpGet]
         public ActionResult<IEnumerable<Produto>> ObterTodosProdutos()

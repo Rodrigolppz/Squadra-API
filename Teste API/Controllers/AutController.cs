@@ -35,14 +35,7 @@ namespace Teste_API.Controllers
             }
         }
 
-        // Endpoint protegido, requer autorização
-        [HttpGet("RotaProtegida")]
-        [Authorize]
-        public IActionResult RotaProtegida()
-        {
-            return Ok("Acessando uma rota protegida");
-        }
-
+     
         // Método para gerar o token JWT
         private string GerarTokenJWT(string role)
         {
