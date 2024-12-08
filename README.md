@@ -169,7 +169,15 @@ Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoqu
 
 <div id='9'/>
 
-# 9 Endpoints e Json de exemplo
+# 9 Rotas & Endpoints
+
+As rotas do projeto estão separadas entre duas categorias: Aut e Produto.
+
+Segue abaixo a lista das rotas configuradas para a conclusão do desafio:
+
+### 9.1 
+
+
 
 --------------------------------------------------------------------------------------------------------
 
