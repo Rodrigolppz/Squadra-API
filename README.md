@@ -1,9 +1,9 @@
 ### <h1 align=center> SQUADRA <img src="https://github.com/Rodrigolppz/Squadra-API/blob/main/images/Squadra-logo.jpg" alt="Descrição da imagem" width="30"> - Projeto API RestFUL | .NET - C# </h1>
 
 ### Desafio: 
-Desenvolver um sistema <b>Gerenciador de produtos</b>, a ideia é desenvolver uma API de produtos seguindo as boas práticas de desenvolvimento utilizando ASP.NET Core.
+Desenvolver um sistema <b>Gerenciador de Produtos</b>. A proposta é criar uma API de produtos seguindo as boas práticas de desenvolvimento utilizando ASP.NET Core.
 
-Abaixo irei detalhar o passo a passo da criação dessa API.
+Abaixo, serão detalhados os passos para a criação dessa API, seguidos do guia de como executá-la.
 
 1. [Criação do Projeto no Visual Studio](#1)
 2. [Instalação das dependências](#2)
@@ -168,5 +168,5 @@ Somente o <b>Gerente</b> e o <b>Funcionário</b> podem <b>Atualizar</b> o estoqu
 
 --------------------------------------------------------------------------------------------------------
 
-# Passo a passo explicando como executar a API
+# Como executar a API: 
 
